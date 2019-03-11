@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render MovieListing with test data 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MovieListing
+    genresDisplay={
+      Array [
+        "Action",
+        "Adventure",
+        "Science Fiction",
+      ]
+    }
+    id={299537}
+    imgPath="https://image.tmdb.org/t/p/w300/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+    rating={7.3}
+    title="Captain Marvel"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <img
+          alt="Captain Marvel"
+          src="https://image.tmdb.org/t/p/w300/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+        />,
+        <div
+          className="movie-listing-card-info"
+        >
+          <h1
+            className="movie-listing-card-title"
+          >
+            Captain Marvel
+          </h1>
+          <p
+            className="movie-listing-card-rating"
+          >
+            Rating: 
+            7.3
+          </p>
+          <p
+            className="movie-listing-card-genres"
+          >
+            Action,Adventure,Science Fiction
+          </p>
+        </div>,
+      ],
+      "className": "movie-listing-card",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "Captain Marvel",
+          "src": "https://image.tmdb.org/t/p/w300/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1
+              className="movie-listing-card-title"
+            >
+              Captain Marvel
+            </h1>,
+            <p
+              className="movie-listing-card-rating"
+            >
+              Rating: 
+              7.3
+            </p>,
+            <p
+              className="movie-listing-card-genres"
+            >
+              Action,Adventure,Science Fiction
+            </p>,
+          ],
+          "className": "movie-listing-card-info",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Captain Marvel",
+              "className": "movie-listing-card-title",
+            },
+            "ref": null,
+            "rendered": "Captain Marvel",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Rating: ",
+                7.3,
+              ],
+              "className": "movie-listing-card-rating",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Rating: ",
+              7.3,
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Action,Adventure,Science Fiction",
+              "className": "movie-listing-card-genres",
+            },
+            "ref": null,
+            "rendered": "Action,Adventure,Science Fiction",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="Captain Marvel"
+            src="https://image.tmdb.org/t/p/w300/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+          />,
+          <div
+            className="movie-listing-card-info"
+          >
+            <h1
+              className="movie-listing-card-title"
+            >
+              Captain Marvel
+            </h1>
+            <p
+              className="movie-listing-card-rating"
+            >
+              Rating: 
+              7.3
+            </p>
+            <p
+              className="movie-listing-card-genres"
+            >
+              Action,Adventure,Science Fiction
+            </p>
+          </div>,
+        ],
+        "className": "movie-listing-card",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Captain Marvel",
+            "src": "https://image.tmdb.org/t/p/w300/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1
+                className="movie-listing-card-title"
+              >
+                Captain Marvel
+              </h1>,
+              <p
+                className="movie-listing-card-rating"
+              >
+                Rating: 
+                7.3
+              </p>,
+              <p
+                className="movie-listing-card-genres"
+              >
+                Action,Adventure,Science Fiction
+              </p>,
+            ],
+            "className": "movie-listing-card-info",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Captain Marvel",
+                "className": "movie-listing-card-title",
+              },
+              "ref": null,
+              "rendered": "Captain Marvel",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Rating: ",
+                  7.3,
+                ],
+                "className": "movie-listing-card-rating",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Rating: ",
+                7.3,
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Action,Adventure,Science Fiction",
+                "className": "movie-listing-card-genres",
+              },
+              "ref": null,
+              "rendered": "Action,Adventure,Science Fiction",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
