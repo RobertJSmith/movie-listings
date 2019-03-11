@@ -4,8 +4,7 @@
 3. Run the command "npm install"
 4. Once package installation is complete, run the command "npm start".
 5. Your default browser should open a new window/tab and load the application, otherwise enter http://localhost:3000/ into the address bar
-6. Additionally if you want to run the jest tests you can enter "npm test" instead of "npm start", the test suite will then ouput the results
-of the tests into the command prompt.
+6. Additionally if you want to run the jest tests you can enter "npm test" instead of "npm start", the test suite will then ouput the results of the tests into the command prompt.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
