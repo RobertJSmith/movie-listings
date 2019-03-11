@@ -1,6 +1,6 @@
 ## Setup Guide
 1. Clone this repository to your local machine
-2. Open the command prompt and direct the prompt to the repository using the command "CD:/ + yourfilepath + /movie-listings
+2. Open the command prompt and direct the prompt to the repository using the command "CD:/yourfilepath/movie-listings
 3. Run the command "npm install"
 4. Once package installation is complete, run the command "npm start".
 5. Your default browser should open a new window/tab and load the application, otherwise enter http://localhost:3000/ into the address bar
